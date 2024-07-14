@@ -17,7 +17,7 @@ public class Question {
             sequenceName = "question_sequence",
             allocationSize = 1
     )
-    private Integer Id;
+    private Integer id;
     private String title;
     private String optionA;
     private String optionB;

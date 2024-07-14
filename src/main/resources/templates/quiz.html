@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<div th:insert="fragments/header.html::header ('Home', '/home.css')"></div>
+<div th:insert="fragments/header.html::header ('Quiz', '/quiz.css')"></div>
 <body>
 
 <!--Navabar Starts-->
@@ -10,22 +10,6 @@
 <!-- Main Content Starts -->
 
 <div class="main-content container py-5 px-4">
-
-    <div class="grid-wrapper">
-        <div class="left-div">
-            <img th:src="@{/image/picture.svg}" alt="Photo">
-        </div>
-
-        <div class="right-div">
-            <h2 class="title">Spring Boot Quiz App</h2>
-            <form class="bg-dark py-5 px-4 card" th:action="@{/quiz}" method="post">
-                <label class="text-light" for="name">Enter Your Name</label>
-                <input type="text" id="name" name="name" class="form-control">
-                <p  class="text-danger message"  th:if="${message}" th:text="${message}"></p>
-                <button type="submit" class="btn btn-warning">Start Quiz</button>
-            </form>
-        </div>
-    </div>
 
 </div>
 <!-- Main Content Ends -->
