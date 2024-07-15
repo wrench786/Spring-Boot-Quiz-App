@@ -49,8 +49,6 @@ It also provides a scoreboard displaying the top scores of all time.
 ## Contributing
 Contributions are welcome! Please fork this repository and submit pull requests for any improvements or bug fixes.
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ## Acknowledgements
 - [Spring Boot](https://spring.io/projects/spring-boot)
